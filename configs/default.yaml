@@ -1,0 +1,12 @@
+# Example configuration for SplatSLAM conversion / denoising
+scene: test10
+max_points: 300000
+camera:
+  fov_x: 60.0
+sor:
+  enabled: true
+  nb_neighbors: 20
+  std_ratio: 1.25
+training:
+  iterations: 7000
+  opacity_reset_interval: 2000

@@ -1,0 +1,5 @@
+numpy
+Pillow
+open3d
+plyfile
+opencv-python

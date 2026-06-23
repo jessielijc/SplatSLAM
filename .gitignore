@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*.nohup.log
+runs/
+wandb/
+
+# Large generated outputs
+/outputs/
+/datasets/
+/data/
+/checkpoints/
+/models/
+
+# Large file types are ignored by default
+*.ply
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.pth
+*.pt
+*.ckpt
+*.tar
+*.zip
+*.npz
+*.npy
+
+# But keep curated example datasets in this repository
+!examples/datasets/**/*.ply
+!examples/datasets/**/*.txt
+!examples/datasets/**/*.png
+!examples/datasets/**/*.json
+!examples/datasets/**/*.log
+!examples/datasets/**/*.mp4
+!examples/datasets/**/*.mov
+!examples/videos/*.mp4
+!examples/videos/*.mov
+
+# Third-party repositories
+MASt3R-SLAM/
+gaussian-splatting/
+third_party/MASt3R-SLAM/
+third_party/gaussian-splatting/
+
+# Reports / temporary files
+*.pdf
+*.html
+*.tmp
+.DS_Store
+Thumbs.db
